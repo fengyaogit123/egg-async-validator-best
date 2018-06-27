@@ -61,8 +61,8 @@ exports.asyncValidatorBest = {
 ```js
     //post 验证
     const rule = {
-			lng: { type: 'string', required: true, message: '必填项' },
-			lat: { type: 'string', required: true }
+	lng: { type: 'string', required: true, message: '必填项' },
+	lat: { type: 'string', required: true }
     }
     await this.ctx.validate(rule)  //默认校验 this.ctx.request.body
     //or
